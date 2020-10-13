@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "mongodb",
+      "type": "com.multimongodb.config.props.MultipleMongoProperties",
+      "sourceType": "com.multimongodb.config.props.MultipleMongoProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "mongodb.primary",
+      "type": "org.springframework.boot.autoconfigure.mongo.MongoProperties",
+      "sourceType": "com.multimongodb.config.props.MultipleMongoProperties"
+    },
+    {
+      "name": "mongodb.secondary",
+      "type": "org.springframework.boot.autoconfigure.mongo.MongoProperties",
+      "sourceType": "com.multimongodb.config.props.MultipleMongoProperties"
+    }
+  ],
+  "hints": []
+}
